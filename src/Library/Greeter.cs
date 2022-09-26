@@ -4,13 +4,13 @@ namespace Library
 {
     public class Greeter
     {
-        private Greeter()
+        public Greeter()
         {
             // Intentionally left blank
         }
-
-        private static Greeter instance;
-
+        
+        //private static Greeter instance;
+        /*
         public static Greeter Instance
         {
             get
@@ -22,8 +22,8 @@ namespace Library
 
                 return instance;
             }
-        }
-
+        }*/
+        
         public void SayHiToTheWorld()
         {
             Console.WriteLine("Hello World!");
